@@ -1,0 +1,137 @@
+@import url("https://fonts.googleapis.com/css2?family=PT+Sans:wght@400;700&display=swap");
+.error404 {
+  color: white;
+  font-family: "PT Sans", sans-serif;
+  font-weight: 700;
+  padding: 0;
+  margin: 0;
+  width: 100vw;
+  height: 100vh;
+  background: url("../BG.png") no-repeat center;
+  background-size: cover;
+  text-align: center;
+  font-size: 100px;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "PT Sans", sans-serif;
+  font-weight: 400;
+  font-size: 24px;
+  color: white;
+}
+body .Main {
+  color: white;
+  width: 100vw;
+  height: 100vh;
+  background: url("../BG.png") no-repeat center;
+  background-size: cover;
+}
+body .Main .container {
+  padding-top: 2.5%;
+  height: 100vh;
+}
+body .Main .container .mainFooter {
+  background: white;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border-radius: 10px;
+  color: #6B6B6B;
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  margin: 10px auto;
+  position: relative;
+  top: 10%;
+}
+body .Main .container .mainFooter .mainFooterText {
+  display: inline-block;
+}
+body .Main .container .mainTextDiv {
+  text-align: center;
+  position: relative;
+  margin-top: 20%;
+}
+body .Main .container .mainTextDiv .mainText {
+  font-size: 54px;
+  -webkit-filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+          filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+body .Main .container .logoText {
+  display: inline-block;
+  font-weight: 700;
+  font-size: 30px;
+  -webkit-filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+          filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+body .about {
+  color: #000;
+  width: 100vw;
+  height: 80vh;
+  background-size: cover;
+}
+body .about .container {
+  padding-top: 2.5%;
+  margin-top: 5%;
+}
+body .about .container .aboutText {
+  display: inline-block;
+  position: relative;
+  bottom: 10%;
+}
+body .about .container .aboutImg {
+  width: 50%;
+}
+body .footer {
+  width: 100vw;
+  height: 50vh;
+  background: #6EC5FF;
+}
+body .footer .container {
+  padding-top: 2.5%;
+  margin-top: 5%;
+}
+body .footer .container .input {
+  text-align: center;
+  position: relative;
+  left: 30%;
+  width: 20%;
+  margin-bottom: 3%;
+}
+body .galerary {
+  color: #000;
+  width: 100vw;
+  height: 130vh;
+  background: #F8F5F5;
+  background-size: cover;
+}
+body .galerary .container {
+  padding-top: 2.5%;
+  margin-top: 5%;
+}
+body .galerary .container .img1 {
+  width: 45%;
+}
+body .galerary .container .img2 {
+  width: 45%;
+  margin-top: -30%;
+}
+body .galerary .container .img3 {
+  width: 45%;
+  margin-top: 0%;
+}
+body .galerary .container .img4 {
+  width: 25%;
+  position: relative;
+  bottom: 10%;
+  left: 20%;
+  margin-top: -20%;
+}
+
+@media screen and (max-width: 550px) {
+  .mainText {
+    font-size: 40px;
+  }
+}
